@@ -1,0 +1,17 @@
+03_alignment/hg38.dict
+03_alignment/hg38.fa
+03_alignment/hg38.fa.amb
+03_alignment/hg38.fa.ann
+03_alignment/hg38.fa.bwt
+03_alignment/hg38.fa.fai
+03_alignment/hg38.fa.pac
+03_alignment/hg38.fa.sa
+03_alignment/hg38.fa.zip
+03_alignment/hg38.mmi
+03_alignment/hg38_bt2_index.1.bt2
+03_alignment/hg38_bt2_index.2.bt2
+03_alignment/hg38_bt2_index.3.bt2
+03_alignment/hg38_bt2_index.4.bt2
+03_alignment/hg38_bt2_index.rev.1.bt2
+03_alignment/hg38_bt2_index.rev.2.bt2
+03_alignment/sample.bwa.bam
