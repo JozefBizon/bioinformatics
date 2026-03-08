@@ -52,6 +52,12 @@ python3 gatk
 nano ~/.bashrc
 # Add the following line at the end of the file
 alias gatk='python3 /opt/gatk-4.4.0.0/gatk'
+
+# NOTE: /opt/ is the path where the extracted GATK folder is located.
+# Replace it with the actual path on your system if GATK is stored elsewhere.
+
+# Reload the bash configuration so the new alias becomes active immediately
+source ~/.bashrc
 ```
 
 You should also have the reference genome FASTA file and its index files from **Practicum 03: Alignment**.
