@@ -52,9 +52,37 @@ python3 gatk
 nano ~/.bashrc
 # Add the following line at the end of the file
 alias gatk='python3 /opt/gatk-4.4.0.0/gatk'
+
+# NOTE: /opt/ is the path where the extracted GATK folder is located.
+# Replace it with the actual path on your system if GATK is stored elsewhere.
+
+# Reload the bash configuration so the new alias becomes active immediately
+source ~/.bashrc
 ```
 
-You should also have the reference genome FASTA file and its index files from **Practicum 03: Alignment**.
+You should also have the reference genome FASTA file and its index files from **Practicum 03: Alignment**, but you will also need a database of known variants (_dbSNP_) for variant calling with GATK.
+Note that the entire database is quite large (15 - 30 GB), so we will use a smaller subset of common variants for this practicum.
+Nonetheless, make sure you have enough disk space available (at least 2 GB):
+
+```bash
+# Download dbSNP database and its index
+wget https://ftp.ncbi.nih.gov/snp/organisms/human_9606/VCF/common_all_20180418.vcf.gz
+wget https://ftp.ncbi.nih.gov/snp/organisms/human_9606/VCF/common_all_20180418.vcf.gz.tbi
+```
+
+> **However, there is an issue!** GATK checks whether the contig names in the reference genome and the dbSNP database match, and if they don't, it will throw an error and stop.
+The problem is that our FASTA reference genome from UCSC uses the `chr` prefix in contig names (e.g., `chr1`, `chr2`, etc.), while the dbSNP database does not (e.g., `1`, `2`, etc.).
+To fix this, we will need to modify the contig names in the dbSNP VCF file to match those in our reference genome.
+We can do this using `bcftools annotate` (you can find the `contig_map.txt` in `bioinformatics/06_variant_calling/` directory):
+
+```bash
+bcftools annotate --rename-chrs <(awk '{print $1, "chr"$1}' <(contig_map.txt)) \ 
+    -O z -o dbsnp.chr.vcf.gz common_all_20180418.vcf.gz
+
+bcftools index -t dbsnp.chr.vcf.gz
+```
+
+> This is a common issue in bioinformatics, so you just recieved a taste of the challenges that can arise when working with different datasets and tools :).
 
 
 ## Further Reading and Resources

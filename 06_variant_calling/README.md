@@ -61,6 +61,8 @@ conda create -n varcall -c bioconda strelka manta
 conda create -n happy -c bioconda hap.py
 ```
 
+### If you have not done so for the previous practicum, you will also need to download dbSNP and modify the contig names to match those in our reference genome. Otherwise, you can skip the following section.
+
 You should also have the reference genome FASTA file and its index files from **Practicum 03: Alignment**, but you will also need a database of known variants (_dbSNP_) for variant calling with GATK.
 Note that the entire database is quite large (15 - 30 GB), so we will use a smaller subset of common variants for this practicum.
 Nonetheless, make sure you have enough disk space available (at least 2 GB):
