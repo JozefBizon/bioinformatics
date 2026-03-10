@@ -15,3 +15,15 @@
 03_alignment/hg38_bt2_index.rev.1.bt2
 03_alignment/hg38_bt2_index.rev.2.bt2
 03_alignment/sample.bwa.bam
+03_alignment/chr22_1Mb.zip
+03_alignment/chr22_1Mb.bam
+03_alignment/chr22_1Mb.sam
+03_alignment/sample.bowtie2.bam
+03_alignment/sample.bowtie2.sorted.bam
+03_alignment/sample.bowtie2.sorted.bam.bai
+03_alignment/sample.bwa.sorted.bam
+03_alignment/sample.bwa.sorted.bam.bai
+03_alignment/sample.bwa.stats.txt
+03_alignment/single_end.fastq
+03_alignment/unmapped_R1.fastq.gz
+03_alignment/unmapped_R2.fastq.gz

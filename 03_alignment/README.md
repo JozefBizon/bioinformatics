@@ -2,10 +2,9 @@
 
 ## Introduction
 
-In this practicum, we will focus on the alignment of sequencing reads to a reference genome or assembly. 
-You will learn how to use popular alignment tools such as BWA and Bowtie2, as well as how to process and analyze the resulting alignment files (SAM/BAM format) using Samtools. 
+In this practicum, we will focus on the alignment of sequencing reads to a reference genome or assembly.
+You will learn how to use popular alignment tools such as BWA and Bowtie2, as well as how to process and analyze the resulting alignment files (SAM/BAM format) using Samtools.
 This practicum will provide you with hands-on experience in performing read alignment, assessing alignment quality, and manipulating alignment files for downstream analyses.
-
 
 ## Objectives
 
@@ -23,11 +22,9 @@ By the end of this practicum, you will be able to:
 
 6. Compare different alignment tools and their outputs.
 
-
 ## Prerequisites
 
 - Bioinformatics resources repository cloned to your local machine. If you haven't done this yet, follow the instructions in the main README file of the repository.
-
 
 ## Getting Started
 
@@ -46,7 +43,7 @@ Additional software/tools required for this practicum:
 You can install these tools using `conda/mamba`:
 
 ```bash
-conda install -c bioconda samtools igv qualimap bwa bowtie2 minimap2
+
 ```
 
 FASTQ files containing sequencing reads for alignment can be found in the `data/sequencing_reads/` directory of the bioinformatics resources repository.
@@ -71,7 +68,6 @@ bowtie2-build hg38.fa hg38_bt2_index
 # Index the reference genome for Minimap2
 minimap2 -d hg38.mmi hg38.fa
 ```
-
 
 ## Further Reading and Resources
 
