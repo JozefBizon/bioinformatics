@@ -1,0 +1,63 @@
+============================================================
+NUKLEOTIDOVÉ ZAROVNANIE (Smith-Waterman)
+============================================================
+Sekvencia 1: ENA|BC092625|BC092625.1 Rattus norvegicus similar to Protein C6orf142 homolog, mRNA (cDNA clone IMAGE:7314232), partial cds. (dĺžka: 2699)
+Sekvencia 2: ENA|M25079|M25079.1 Human sickle cell beta-globin mRNA, complete cds. (dĺžka: 468)
+
+Skóre: 361.5
+
+Seq1: TGGGAT-------------AGCCCCTCAGCAAAAACATGGGCAGAAAACG
+      | ||||             ||       ||.    | |     |.    |
+Seq2: T-GGATGAAGYYGGYGGYGAG-------GCC----C-T-----GG----G
+
+Seq1: CCACCTGTCCCAGCTAAAGTCAGCGG--AACCACT-G---TGCTAGAAGA
+       ||   |     .||.  .| .|.||  .|||..| |     |    |||
+Seq2: -CA---G-----NCTG--CT-NGTGGTCTACCCTTGGACC--C----AGA
+
+Seq1: GTTTC--ACATTCG-CA-GGCTGGA--TGT------CC-ATGGGGCCTCT
+      |.|||  ..|.||. .  ||  |||  ||.      |. |.|..|. |.|
+Seq2: GGTTCTTNGANTCNTT-YGG--GGATCTGNNNACNCCNGANGCAGT-TAT
+
+Seq1: GAGGAAGAAACGGCTACGTATTTTCACACTACTGCTCACGATTCCCCCCT
+        ||  |.||| .|||.|.             ||.  | |          
+Seq2: --GG--GCAAC-CCTAAGG-------------TGA--A-G----------
+
+Seq1: TCCTGCATGGAAGGGCGCTTCGACCTTAGTATTTTCTCCTTCTGCTCAAC
+       .|| |||||.|.        ||    |  |             .|.  |
+Seq2: -GCT-CATGGCAA--------GA----A--A-------------GTG--C
+
+Seq1: TGCCAGGTTCTAGTTTATGTGGCTCAAATGTCGCT-G-ATCACACACGTG
+      |  | |||.|.  |||| || |     |||.| || |  |    ||    
+Seq2: T--C-GGTGCC--TTTA-GT-G-----ATGGC-CTGGC-T----CA----
+
+Seq1: GGTTGGCACCGGAAGCCCAGAAGAAAGTGTCGACTTCGAGTG-C-C-CTT
+       ..|||  .|  ||.|.||.. |..|    |  | |.   || | | ||.
+Seq2: -CCTGG--AC--AACCTCAAG-GGCA----C--C-TT---TGCCACACTG
+
+Seq1: AATCCCAGGGAAGATG---TGAGAACCTCTCCTTCACCTGCCTCTGGTGC
+      |.|      | ||.||   ||.| |         ||.  ||..|..|||.
+Seq2: AGT------G-AGCTGCACTGTG-A---------CAA--GCTNCAYGTGG
+
+Seq1: TTCTCTGAGGTCACCCTCAGCTTCCTACATCCCAGTCCGCATTGTCATGC
+      .|| |||| |  |.|.||||.   ||.| |   .|   |||     |.|.
+Seq2: ATC-CTGA-G--AACTTCAGG---CTNC-T---NG---GCA-----ACGT
+
+Seq1: AC-TCACTGTCCCCAAGTCCCAAACCACTTACCTCCTCCTCCCATGGCTC
+       . |   .|||..  .|                |.||. .|||||  |.|
+Seq2: -GYT---NGTCTG--YG----------------TGCTG-GCCCAT--CAC
+
+Seq1: TTTGTCCACCGTCTGTAGCCAAACATCATCCAGT----G--GA-AATCTT
+      ||||. ||..|..| |   |  ||..|| |||||    |  |. .|||..
+Seq2: TTTGG-CAAAGAAT-T---C--ACCCCA-CCAGTGCANGCNGCCTATCAG
+
+Seq1: TCGAAGTCAGGGCTGAAGTCCCCAGTACCCTCTCGGCTTTCTCTCCTCAC
+      .  ||||   ||..|.  |     |    .|.| .|||....| |||   
+Seq2: A--AAGT---GGTNGC--T-----G----GTGT-NGCTAATGC-CCT---
+
+Seq1: TGCTATCCTCAAGTCAAACCCTTCTCACCAAAGGCCT--T-TATCCCCTG
+      .||   ||.||||         |.||| |.|| ||..    | |   .| 
+Seq2: GGC---CCACAAG---------TATCA-CTAA-GCTNGC-YT-T---YT-
+
+Seq1: CATCCTGTCCAA
+        |..|||||||
+Seq2: --TGYTGTCCAA

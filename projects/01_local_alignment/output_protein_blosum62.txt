@@ -1,0 +1,15 @@
+============================================================
+AMINOKYSELINOVÉ ZAROVNANIE – BLOSUM62
+============================================================
+Sekvencia 1: sp|A0A096MK47|MLIP_RAT Muscular LMNA-interacting protein OS=Rattus norvegicus OX=10116 GN=Mlip PE=1 SV=2 (dĺžka: 966)
+Sekvencia 2: sp|P68871|HBB_HUMAN Hemoglobin subunit beta OS=Homo sapiens OX=9606 GN=HBB PE=1 SV=2 (dĺžka: 147)
+
+Skóre: 36.0
+
+Seq1: PFSKYLEDSSGLFSEQDMAIPHKPVSLHPLYQSKLYPPAKSLLR-PQTLS
+      |:::...:|.|..|..|..:.:..|..|         ..|.|.. ...|:
+Seq2: PWTQRFFESFGDLSTPDAVMGNPKVKAH---------GKKVLGAFSDGLA
+
+Seq1: HADCLTPGPFSHLSSFSLRDEQEKSPTLLSQDTYNKPGHPMVTIPEH
+      |.|.| .|.|:.||.... |:....|     :.:...|:.:|.:..|
+Seq2: HLDNL-KGTFATLSELHC-DKLHVDP-----ENFRLLGNVLVCVLAH

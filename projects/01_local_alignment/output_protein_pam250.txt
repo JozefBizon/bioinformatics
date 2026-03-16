@@ -1,0 +1,19 @@
+============================================================
+AMINOKYSELINOVÉ ZAROVNANIE – PAM250
+============================================================
+Sekvencia 1: sp|A0A096MK47|MLIP_RAT Muscular LMNA-interacting protein OS=Rattus norvegicus OX=10116 GN=Mlip PE=1 SV=2 (dĺžka: 966)
+Sekvencia 2: sp|P68871|HBB_HUMAN Hemoglobin subunit beta OS=Homo sapiens OX=9606 GN=HBB PE=1 SV=2 (dĺžka: 147)
+
+Skóre: 61.5
+
+Seq1: FLKKEEEVYEPNPFSKYLEDSSGLFSEQDMAIPHKPVSLHPLYQSKLYPP
+      :|.    ||   |.::.:.:  : |:  |  : ..|.::..  ::|:.:.
+Seq2: LLV----VY---PWTQRFFE--S-FG--D--L-STPDAVMG--NPKVKAH
+
+Seq1: AKSLL-R-PQTLSHADCLTPGPFSHLSSFSLR-DEQEKSPTLLSQDTYNK
+      :|.:| . ::.|:|.|.|. |.|:.| | .|: |..:..|.    : :..
+Seq2: GKKVLGAFSDGLAHLDNLK-GTFATL-S-ELHCDKLHVDPE----N-FRL
+
+Seq1: PGHPMVTIPEHD
+      .|:.:|.:..|:
+Seq2: LGNVLVCVLAHH
